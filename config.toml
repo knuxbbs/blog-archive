@@ -1,4 +1,4 @@
-baseURL = "http://knuxbbs.github.io/"
+baseURL = "https://knuxbbs.github.io/"
 languageCode = "pt-br"
 title = "açúcares sintáticos"
 theme = "hikari"
