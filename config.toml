@@ -7,8 +7,8 @@ theme = "hikari"
 	post = "/:year/:month/:day/:slug"
 
 [params]
-	name = "Bruno B. de Souza"
-	description = "Describe your website"
+	name = "Bruno Bacelar"
+	description = "A blog about programming and technology in general."
 	copyright = "Site feito com [HUGO](//gohugo.io) - Tema: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - Conteúdo licenciado sob [CC BY-SA 3.0](//creativecommons.org/licenses/by-sa/3.0/)"
 
 	# Custom assets can be linked with their paths relative to static/
@@ -16,27 +16,27 @@ theme = "hikari"
 	custom_js  = []
 
 	# Links to newer/older blog posts
-	newer = "Newer"
-	older = "Older"
+	newer = "Mais recente"
+	older = "Mais antigo"
 
-	pageNotFoundTitle = "Page not found"
-	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
+	pageNotFoundTitle = "404"
+	pageNotFoundSubtitle = "Desculpa, mas a página solicitada <br> não foi encontrada."
 
 [params.offcanvas]
 	# Menu items
 	title = "Oi, eu sou o Bruno"
-	bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, pariatur!"
-	subscribe = "Subscribe"
-	followme = "Follow me on"
+	bio = "E este é um blog para falar principalmente sobre assuntos técnicos."
+	subscribe = "Inscreva-se"
+	followme = "Sigam-me os bons"
 
 	# Enable Google search
 	search_enabled = false
 	search = "Search"
 
 	[[params.offcanvas.socialnetworks]]
-		name = "Github"
-		url = "//github.com/knuxbbs"
-
-	[[params.offcanvas.socialnetworks]]
 		name = "Twitter"
 		url = "//twitter.com/knuxbbs"
+
+	[[params.offcanvas.socialnetworks]]
+		name = "Github"
+		url = "//github.com/knuxbbs"
