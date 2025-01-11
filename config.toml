@@ -25,7 +25,7 @@ theme = "hikari"
 [params.offcanvas]
 	# Menu items
 	title = "Oi, eu sou o Bruno"
-	bio = "E este é um blog para falar principalmente sobre assuntos técnicos."
+	bio = "E eu quero apenas escrever."
 	subscribe = "Inscreva-se"
 	followme = "Sigam-me os bons"
 
@@ -34,8 +34,8 @@ theme = "hikari"
 	search = "Search"
 
 	[[params.offcanvas.socialnetworks]]
-		name = "Twitter"
-		url = "//twitter.com/knuxbbs"
+		name = "Mastodon"
+		url = "//mastodon.com.br/@knuxbbs"
 
 	[[params.offcanvas.socialnetworks]]
 		name = "Github"
